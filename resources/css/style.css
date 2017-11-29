@@ -18,3 +18,31 @@ html{
   height: 1.5rem;
   margin: 0 1rem 0 0.5rem;
 }
+
+.banner{
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner h2, .banner h1{
+  background-color: black;
+  width: 20rem;
+}
+
+.banner h2{
+  padding: 2rem 0 0.125rem 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0rem;
+}
+
+.banner h1{
+  padding: 0.125rem 0 2rem 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
