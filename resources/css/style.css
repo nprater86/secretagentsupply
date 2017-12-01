@@ -2,20 +2,22 @@ html{
   font-size: 18px;
   font-family: Helvetica;
   color: white;
+}
+
+.container{
   width: 960px;
   margin: 0 auto;
 }
 
 .logo{
-  display: flex;
   background-color: black;
-  align-items: center;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
 }
 
 .logo img{
   height: 1.5rem;
+  width: auto;
   margin: 0 1rem 0 0.5rem;
 }
 
@@ -25,20 +27,19 @@ html{
   background-position: center;
   background-size: cover;
   height: 25rem;
-  display: flex;
-  flex-direction: column;
 }
 
 .banner h2, .banner h1{
   background-color: black;
   width: 20rem;
+  position: relative;
+  top: 9rem;
 }
 
 .banner h2{
   padding: 2rem 0 0.125rem 3rem;
   font-size: 1rem;
   font-weight: bold;
-  margin-top: 0rem;
 }
 
 .banner h1{
