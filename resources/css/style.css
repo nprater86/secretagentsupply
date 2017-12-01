@@ -89,3 +89,25 @@ html{
   padding: 0.5rem 0;
   width: 100%;
 }
+
+.information{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.details h3{
+  font-size: 1rem;
+  background-color: black;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.details span{
+  color: black;
+}
