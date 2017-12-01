@@ -93,7 +93,7 @@ html{
 .information{
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin: 3rem auto 4rem auto;
 }
 
 .details{
@@ -110,4 +110,10 @@ html{
 
 .details span{
   color: black;
+}
+
+footer{
+  background-color: black;
+  width: 100%;
+  padding: 5rem 0;
 }
