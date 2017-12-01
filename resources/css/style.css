@@ -47,3 +47,13 @@ html{
   font-size: 2rem;
   font-weight: bold;
 }
+
+.nav{
+  background-color: firebrick;
+}
+
+.navspan{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
