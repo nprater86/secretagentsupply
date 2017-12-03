@@ -18,6 +18,8 @@ html{
 }
 
 .logo{
+  display:flex;
+  justify-content: flex-start;
   background-color: black;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
@@ -25,7 +27,7 @@ html{
 
 .logo img{
   height: 1.5rem;
-  width: auto;
+  width: 2.278rem;
   margin: 0 1rem 0 0.5rem;
 }
 
@@ -64,6 +66,10 @@ html{
   display: flex;
   justify-content: space-between;
   padding: 0.75rem 0;
+}
+
+.menuonly{
+  display: none;
 }
 
 .productgrid{
@@ -124,4 +130,113 @@ footer{
   background-color: black;
   width: 100%;
   padding: 5rem 0;
+}
+
+@media only screen and (max-width: 1024px){
+  .container{
+    width: 100%;
+    min-width: 640px;
+    margin: 0 auto;
+  }
+
+  #logo {
+    height: 1.5rem;
+    max-width: 2.278rem;
+    margin: 0 1rem 0 0.5rem;
+  }
+
+  .navspan{
+    display: none;
+  }
+  .nav{
+    background-color: firebrick;
+  }
+
+  .menuonly{
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0;
+  }
+
+  .product{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .productgrid .glasses{
+    display: none;
+  }
+
+  .details{
+    width: 35%;
+    margin: 3rem 0 3rem 0;
+  }
+}
+
+@media only screen and (max-width: 470px){
+
+  .container{
+    width: 100%;
+    min-width: 470px;
+    margin: 0 auto;
+  }
+
+  .banner{
+    background-image: url("../images/moto.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 15rem;
+  }
+
+  .banner h2, .banner h1{
+    background-color: black;
+    width: 100%;
+    position: relative;
+    top: 10rem;
+  }
+
+  .banner h2{
+    padding: 2rem 0 0.125rem 2rem;
+    font-size: 0.77rem;
+    font-weight: bold;
+  }
+
+  .banner h1{
+    padding: 0.125rem 0 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .productgrid{
+    display: flex;
+    justify-content: center;
+  }
+
+  .product{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .productgrid .watch{
+    display: none;
+  }
+
+  .information{
+    flex-direction: column;
+    align-items: center;
+  }
+  .details{
+    width: 90%;
+    }
+
+    footer{
+      text-align: center;
+    }
 }
